@@ -20,7 +20,7 @@
   <depend>diagnostic_msgs</depend>
   <depend>diagnostic_updater</depend>
   <depend>geometry_msgs</depend>
-  <depend>libcreate</depend>
+  <!--depend>libcreate</depend-->
   <depend>nav_msgs</depend>
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
