@@ -3,7 +3,7 @@ project(create_driver)
 
 add_compile_options(-Wall -Wextra -Wpedantic)
 
-find_package(libcreate REQUIRED)
+#find_package(libcreate REQUIRED)
 
 find_package(catkin REQUIRED COMPONENTS
   create_msgs
