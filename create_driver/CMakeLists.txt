@@ -3,7 +3,7 @@ project(create_driver)
 
 add_compile_options(-Wall -Wextra -Wpedantic)
 
-#find_package(libcreate REQUIRED)
+find_package(libcreate REQUIRED)
 
 find_package(catkin REQUIRED COMPONENTS
   create_msgs
@@ -32,7 +32,7 @@ catkin_package(
     std_msgs
     tf2_geometry_msgs
     tf2_ros
-  #DEPENDS libcreate
+  DEPENDS libcreate
 )
 
 roslint_cpp()
