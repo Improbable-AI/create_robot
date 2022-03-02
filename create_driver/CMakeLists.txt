@@ -32,7 +32,7 @@ catkin_package(
     std_msgs
     tf2_geometry_msgs
     tf2_ros
-  DEPENDS libcreate
+  #DEPENDS libcreate
 )
 
 roslint_cpp()
